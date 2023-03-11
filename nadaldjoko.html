@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Djokovic vs. Nadal</title>
+	<style>
+		body {
+			background-color: #f8f8f8;
+			overflow: hidden;
+		}
+		.background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-image: url('tennis-ball.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			filter: brightness(60%) contrast(130%);
+			animation: moveBackground 20s ease infinite;
+			z-index: -1;
+		}
+		@keyframes moveBackground {
+			0% {
+				background-position: 0 0;
+			}
+			50% {
+				background-position: 500px 500px;
+			}
+			100% {
+				background-position: 0 0;
+			}
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="background"></div>
+	<header>
+		<h1>Djokovic vs. Nadal</h1>
+		<nav>
+			<ul>
+				<li><a href="#djokovic">Djokovic</a></li>
+				<li><a href="#nadal">Nadal</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="djokovic">
+			<h2>Novak Djokovic</h2>
+			<img src="djokovic.jpg" alt="Foto de Novak Djokovic">
+			<p>Novak Djokovic é um tenista sérvio que atualmente ocupa o primeiro lugar no ranking mundial de tênis. Ele já venceu 20 torneios de Grand Slam ao longo de sua carreira e é considerado um dos maiores tenistas de todos os tempos. Djokovic é conhecido por sua habilidade no fundo de quadra, seu excelente jogo de devolução e sua incrível resistência física.</p>
+			<p>Para saber mais sobre Novak Djokovic, visite o site oficial dele: <a href="https://novakdjokovic.com/">https://novakdjokovic.com/</a></p>
+		</section>
+		<section id="nadal">
+			<h2>Rafael Nadal</h2>
+			<img src="nadal.jpg" alt="Foto de Rafael Nadal">
+			<p>Rafael Nadal é um tenista espanhol que atualmente ocupa o terceiro lugar no ranking mundial de tênis. Ele já venceu 20 torneios de Grand Slam ao longo de sua carreira e é considerado um dos maiores tenistas de todos os tempos. Nadal é conhecido por sua habilidade no saibro, sua grande força física e seu estilo de jogo agressivo.</p>
+			<p>Para saber mais sobre Rafael Nadal, visite o site oficial dele: <a href="https://rafaelnadal.com/">https://
